@@ -1,0 +1,38 @@
+{
+  "author": "David Roman",
+  "bugs": {
+    "url": "https://github.com/davdroman/opencode-clear-session-keybind/issues"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.0.16"
+  },
+  "description": "Configure a keyboard shortcut for OpenCode 2's /clear command.",
+  "exports": {
+    "./tui": "./tui.js"
+  },
+  "files": [
+    "tui.js"
+  ],
+  "homepage": "https://github.com/davdroman/opencode-clear-session-keybind#readme",
+  "keywords": [
+    "clear",
+    "cli",
+    "keybind",
+    "keyboard-shortcut",
+    "opencode",
+    "opencode-plugin",
+    "session",
+    "tui"
+  ],
+  "license": "MIT",
+  "name": "opencode-clear-session-keybind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davdroman/opencode-clear-session-keybind.git"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
